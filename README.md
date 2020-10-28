@@ -11,6 +11,12 @@ ExtractEvents_NatComm2020.ipf
 - To be used to extract currents based on event times (which are detected using tarotools).
 - Specifically used to extract correlated events in a second cell based on the events in the first cell.
 
+PairedViewer_NatComm2020.ipf
+- Used to view, and calculate parameters of correlated events in neuronal pairs.
+
+Sample_mini_analysis_NatComm2020.pxp
+- a typical dataset on which the above analysis code can be used.
+
 # Imaging analysis
 
 
