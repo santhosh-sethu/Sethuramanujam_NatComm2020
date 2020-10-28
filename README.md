@@ -17,6 +17,12 @@ PairedViewer_NatComm2020.ipf
 Sample_mini_analysis_NatComm2020.pxp
 - a typical dataset on which the above analysis code can be used.
 
-# Imaging analysis
+# Nearest neighbor distances (NND) analysis
+
+NND_analysis_NatComm2020.ipf
+This file has the following functions;
+- CreateTreeFromROI: This function appends the selected ROI to a wave which represents the dendritic skeleton.
+- ROItomask: creates an image of the dendritic tree on the scale of the original image stack
+- CalcNearestNeighbor: creates a dendritic map of the NNDs of a reference cell when compared to an adjacent cell. Also creates a wave of all the 
 
 
