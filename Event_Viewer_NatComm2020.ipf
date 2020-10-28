@@ -97,7 +97,7 @@ Button button4 title = "All", proc = Allparam
 end
 
 //////////////////////////////////////////////event update//////////////////////////////////////////////////////////////////////////////////////
-//function which updates the viewer window to show .
+//function which updates the viewer window to show events.
 Function traceupdate(ctrlName,varNum,varStr,varName) : SetVariableControl
 	String ctrlName
 	Variable varNum
@@ -119,7 +119,7 @@ Function traceupdate(ctrlName,varNum,varStr,varName) : SetVariableControl
 		
 	wave eventno, IndexWave
 	string eventname
-	if (IndexPresent == 1)
+	if (IndexPresent == 1)//selecting the new wave to be displayed
 		eventname = stringfromlist(IndexWave[eventno[0]-1],Gwavenames)
 	else
 		eventname = stringfromlist(eventno[0]-1,Gwavenames)
