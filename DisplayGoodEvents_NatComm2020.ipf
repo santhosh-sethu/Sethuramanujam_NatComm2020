@@ -2,7 +2,7 @@
 #pragma rtGlobals=3		// Use modern global access method and strict wave access.
 
 //Displays only events within the set parameters (amplitude, decay, rise)
-// Creates an indexWave which is used by pairedViewer/event_Viewer files.
+// Creates WaveIndex which is used by pairedViewer/event_Viewer files.
 function DisplayGoodEvents()
 
 string wavenames, tracename
